@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
+/* Header*/
+header>img{
+    float: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+nav{
+    float: right;
+    padding-top: 3rem;
+    font-weight: 700;
+}
+
+nav>a{
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #E7DFDD;
+}
+
+nav>a:hover{
+    color: red;
+}
+
+
+
+/*Introduction*/
+section.intro{
+    padding-top: 15rem;
+    padding-bottom: 45rem;
+    background-coloR: #0E0B16;
+}
+
+img.profilepic{
+    float: left;
+    padding-left: 30rem;
+    width: 36rem;
+    height: 36rem;
+}
+
+div.intro{
+    float: right;
+    padding-top: 5rem;
+    padding-right: 30rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+p.intro-tittle{
+    color: #E7DFDD;
+}
+
+p.intro-subtittle{
+    padding: 1rem;
+    background-color: aqua;
+}
+
+
+
+
+
+/*My Skills*/
+section.my-skills{
+    padding-top: .5rem;
+    padding-bottom: 5rem;
+    background-color: #E7DFDD;
+}
+
+h1.my-skills{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+img.skill{
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+div.skill{
+    float: left;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 4.5rem;
+    line-height: 150%;
+    font-size: 1.5rem;
+}
+
+a.link{
+    text-decoration: none;
+    color: blue;
+}
+
+a.link:hover{
+    color: brown;
+}
+
+
+p.button{
+    padding-top: 20rem;
+    text-align: center;
+    font-size: large;
+}
+p.button>a{
+    background-color: #A239CA;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+p.button>a:hover{
+    color: black;
+}
+
+
+
+
+
+/*About Me*/
+section.about-me{
+    padding-top: 1rem;
+    padding-bottom: 54rem;
+    background-color: #0E0B16;
+}
+
+h1.about-me{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 5rem;
+    color: #E7DFDD;
+}
+
+div.about-me{
+    float: left;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-size: 2rem;
+    line-height: 150%;
+    color: #E7DFDD;
+}
+
+img.pic{
+    float: right;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    height: 54rem;
+    width: 30rem;
+}
+
+
+
+
+/*Contact*/
+section.contact{
+    padding-top: 3rem;
+    padding-bottom: 11rem;
+    background-color: #E7DFDD;
+}
+
+h1.contact{
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+img.first{
+    float: left;
+    padding-left: 55rem;
+    width: 3rem;
+    height: 3rem; 
+    padding-top: 3rem;  
+    padding-bottom: 5rem;
+}
+
+img.rest{
+    float: left;
+    padding-left: 3rem;
+    width: 3rem;
+    height: 3rem;  
+    padding-top: 3rem;  
+    padding-bottom: 5rem;
+}
+
+@media(max-width: 998px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%;
+    }
+}
